@@ -669,6 +669,16 @@
         <NamedIndividual IRI="#Requirements"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <NamedIndividual IRI="#Monster_Hunter_World"/>
+        <NamedIndividual IRI="#MHW_PSN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <NamedIndividual IRI="#Monster_Hunter_World"/>
+        <NamedIndividual IRI="#MHW_Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#SupportedPlatforms"/>
         <NamedIndividual IRI="#Monster_Hunter_World_Iceborne"/>
         <NamedIndividual IRI="#Playstation_4"/>
@@ -677,6 +687,16 @@
         <ObjectProperty IRI="#SupportedPlatforms"/>
         <NamedIndividual IRI="#Monster_Hunter_World_Iceborne"/>
         <NamedIndividual IRI="#Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <NamedIndividual IRI="#Monster_Hunter_World_Iceborne"/>
+        <NamedIndividual IRI="#MHW_Iceborn_PSN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <NamedIndividual IRI="#Monster_Hunter_World_Iceborne"/>
+        <NamedIndividual IRI="#MHW_Iceborn_Steam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasValue"/>
@@ -939,6 +959,14 @@
         <Class IRI="#Platform"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <Class IRI="#ExpansionPack"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#involvesAchievement"/>
         <Class IRI="#Session"/>
     </ObjectPropertyDomain>
@@ -1084,6 +1112,10 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasValue"/>
+        <Class IRI="#PriceInDollar"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
         <Class IRI="#PriceInDollar"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
