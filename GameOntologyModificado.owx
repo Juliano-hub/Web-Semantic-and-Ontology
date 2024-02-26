@@ -406,7 +406,28 @@
         <DataProperty IRI="#version"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Conquer_of_the_New_World"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FH5DLC_Steam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FH5DLC_XboxMicrosoft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FH5_Steam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FH5_XboxMicrosoft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Intel_Core_i5_4460"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JooJ"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#MHW_Iceborn_PSN"/>
@@ -436,10 +457,25 @@
         <NamedIndividual IRI="#Requirements"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#RequirementsFH5"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Steam"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#ZezinhoGamer1xx9"/>
+        <NamedIndividual IRI="#Thouta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zezinho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Missions_Complete!"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XboxOne/XboxSerieX/MicrosoftStore"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
@@ -601,8 +637,36 @@
         <Class IRI="#Achievement"/>
     </SubClassOf>
     <ClassAssertion>
+        <Class IRI="#Completion"/>
+        <NamedIndividual IRI="#Conquer_of_the_New_World"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PriceInDollarClass"/>
+        <NamedIndividual IRI="#FH5DLC_Steam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PriceInDollarClass"/>
+        <NamedIndividual IRI="#FH5DLC_XboxMicrosoft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PriceInDollarClass"/>
+        <NamedIndividual IRI="#FH5_Steam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PriceInDollarClass"/>
+        <NamedIndividual IRI="#FH5_XboxMicrosoft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Processor"/>
         <NamedIndividual IRI="#Intel_Core_i5_4460"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#JooJ"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#PriceInDollarClass"/>
@@ -641,13 +705,73 @@
         <NamedIndividual IRI="#Requirements"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Requirements"/>
+        <NamedIndividual IRI="#RequirementsFH5"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Platform"/>
         <NamedIndividual IRI="#Steam"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Player"/>
-        <NamedIndividual IRI="#ZezinhoGamer1xx9"/>
+        <NamedIndividual IRI="#Thouta"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Zezinho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ExpansionPack"/>
+        <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Completion"/>
+        <NamedIndividual IRI="#Missions_Complete!"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#XboxOne/XboxSerieX/MicrosoftStore"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SupportedPlatforms"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+        <NamedIndividual IRI="#Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SupportedPlatforms"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+        <NamedIndividual IRI="#XboxOne/XboxSerieX/MicrosoftStore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAchievement"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+        <NamedIndividual IRI="#Missions_Complete!"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExpansionPack"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+        <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequirement"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+        <NamedIndividual IRI="#RequirementsFH5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+        <NamedIndividual IRI="#FH5_Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+        <NamedIndividual IRI="#FH5_XboxMicrosoft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsGame"/>
+        <NamedIndividual IRI="#JooJ"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#SupportedPlatforms"/>
         <NamedIndividual IRI="#Monster_Hunter_World"/>
@@ -657,6 +781,11 @@
         <ObjectProperty IRI="#SupportedPlatforms"/>
         <NamedIndividual IRI="#Monster_Hunter_World"/>
         <NamedIndividual IRI="#Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAchievement"/>
+        <NamedIndividual IRI="#Monster_Hunter_World"/>
+        <NamedIndividual IRI="#Conquer_of_the_New_World"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasExpansionPack"/>
@@ -719,6 +848,26 @@
         <NamedIndividual IRI="#NVIDIA_GTX_1050"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_CPU_requirements"/>
+        <NamedIndividual IRI="#RequirementsFH5"/>
+        <NamedIndividual IRI="#Intel_Core_i5_4460"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_GPU_requirements"/>
+        <NamedIndividual IRI="#RequirementsFH5"/>
+        <NamedIndividual IRI="#NVIDIA_GTX_1050"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#Steam"/>
+        <NamedIndividual IRI="#FH5DLC_Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#Steam"/>
+        <NamedIndividual IRI="#FH5_Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasValue"/>
         <NamedIndividual IRI="#Steam"/>
         <NamedIndividual IRI="#MHW_Iceborn_Steam"/>
@@ -730,9 +879,79 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#playsGame"/>
-        <NamedIndividual IRI="#ZezinhoGamer1xx9"/>
+        <NamedIndividual IRI="#Zezinho"/>
         <NamedIndividual IRI="#Monster_Hunter_World"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsGame"/>
+        <NamedIndividual IRI="#Zezinho"/>
+        <NamedIndividual IRI="#Monster_Hunter_World_Iceborne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SupportedPlatforms"/>
+        <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
+        <NamedIndividual IRI="#Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SupportedPlatforms"/>
+        <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
+        <NamedIndividual IRI="#XboxOne/XboxSerieX/MicrosoftStore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
+        <NamedIndividual IRI="#FH5DLC_Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
+        <NamedIndividual IRI="#FH5DLC_XboxMicrosoft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#XboxOne/XboxSerieX/MicrosoftStore"/>
+        <NamedIndividual IRI="#FH5DLC_XboxMicrosoft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#XboxOne/XboxSerieX/MicrosoftStore"/>
+        <NamedIndividual IRI="#FH5_XboxMicrosoft"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceinDollar"/>
+        <NamedIndividual IRI="#FH5DLC_Steam"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">19.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceinDollar"/>
+        <NamedIndividual IRI="#FH5DLC_XboxMicrosoft"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">19.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceinDollar"/>
+        <NamedIndividual IRI="#FH5_Steam"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">59.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceinDollar"/>
+        <NamedIndividual IRI="#FH5_XboxMicrosoft"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">59.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#language"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#language"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+        <Literal>Portuguese</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#cpu_cores"/>
         <NamedIndividual IRI="#Intel_Core_i5_4460"/>
@@ -747,6 +966,16 @@
         <DataProperty IRI="#threads"/>
         <NamedIndividual IRI="#Intel_Core_i5_4460"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#account_creation_date"/>
+        <NamedIndividual IRI="#JooJ"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2013-02-04</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#last_access_date"/>
+        <NamedIndividual IRI="#JooJ"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2024-02-26</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#PriceinDollar"/>
@@ -824,6 +1053,21 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#unsignedByte">52000000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#OS"/>
+        <NamedIndividual IRI="#RequirementsFH5"/>
+        <Literal>WINDOWS 10 64-bits</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#memory"/>
+        <NamedIndividual IRI="#RequirementsFH5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#unsignedByte">16000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#storage"/>
+        <NamedIndividual IRI="#RequirementsFH5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#unsignedByte">110000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#manufacturer"/>
         <NamedIndividual IRI="#Steam"/>
         <Literal>Valve</Literal>
@@ -840,13 +1084,18 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#account_creation_date"/>
-        <NamedIndividual IRI="#ZezinhoGamer1xx9"/>
+        <NamedIndividual IRI="#Zezinho"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2018-01-26</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#last_access_date"/>
-        <NamedIndividual IRI="#ZezinhoGamer1xx9"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2024-02-25</Literal>
+        <NamedIndividual IRI="#Zezinho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2024-02-26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
+        <Literal>Forza Horizon 5: Hot Wheels</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#SupportedPlatforms"/>
@@ -1468,6 +1717,11 @@ This ontology defines various subclasses of vgo:Achievement, which are all based
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Conquer_of_the_New_World</IRI>
+        <Literal>Monster Hunter World Achievement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Curiosity</IRI>
         <Literal xml:lang="en">The vgo:Curiosity describes funny random things that can happen or be found in the game. An example could be jumping from the Eiffel tower without dying or following a comupter controlled character’s activities for one hour.</Literal>
     </AnnotationAssertion>
@@ -1475,6 +1729,16 @@ This ontology defines various subclasses of vgo:Achievement, which are all based
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Curiosity</IRI>
         <Literal xml:lang="en">Curiosity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FH5_Steam</IRI>
+        <Literal>Price of the Forza Horizon 5 on Steam platform with value in dollars</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FH5_XboxMicrosoft</IRI>
+        <Literal>Price of the Forza Horizon 5 on the Xbox one and Microsoft platforms with value in dollars</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1670,6 +1934,11 @@ GameProduct is a subclass of Good Relations: ProductOrService &amp; schema:Produ
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Monster_Hunter_World_Iceborne</IRI>
+        <Literal>Monster Hunter World DLC information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Multiplayer</IRI>
         <Literal xml:lang="en">The vgo:Multiplayer achievement describes anything that can be awarded to one or multiple players due to their gameplay in multiplayer. For example, this could be winning 10 Team Fortress matches in a row with the same team or getting killed ten times in a row in Counter-Strike.</Literal>
     </AnnotationAssertion>
@@ -1717,6 +1986,16 @@ GameProduct is a subclass of Good Relations: ProductOrService &amp; schema:Produ
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#PlayingArea</IRI>
         <Literal xml:lang="en">playing area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Requirements</IRI>
+        <Literal>Requirements of specs to run Monster Hunter World</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RequirementsFH5</IRI>
+        <Literal>Requirements of specs to run Forza Horizon 5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2172,6 +2451,16 @@ GameProduct is a subclass of Good Relations: ProductOrService &amp; schema:Produ
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#username</IRI>
         <Literal xml:lang="en">username</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FH5:_Hot_Wheels</IRI>
+        <Literal>Forza Horizon 5 DLC information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Missions_Complete!</IRI>
+        <Literal>Forza Horizon 5 Achievement</Literal>
     </AnnotationAssertion>
 </Ontology>
 
