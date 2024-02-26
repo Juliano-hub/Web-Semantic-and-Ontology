@@ -229,6 +229,9 @@
         <ObjectProperty IRI="#hasGameGenre"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasGenre"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasItem"/>
     </Declaration>
     <Declaration>
@@ -406,6 +409,9 @@
         <DataProperty IRI="#version"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Action"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Conquer_of_the_New_World"/>
     </Declaration>
     <Declaration>
@@ -451,7 +457,16 @@
         <NamedIndividual IRI="#NVIDIA_GTX_1050"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OpenWorld"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Playstation_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RPG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Racing"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Requirements"/>
@@ -464,9 +479,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Thouta"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Xbox"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Zezinho"/>
@@ -640,6 +652,10 @@
         <Class IRI="#Achievement"/>
     </SubClassOf>
     <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Action"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Completion"/>
         <NamedIndividual IRI="#Conquer_of_the_New_World"/>
     </ClassAssertion>
@@ -700,8 +716,20 @@
         <NamedIndividual IRI="#NVIDIA_GTX_1050"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#OpenWorld"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Platform"/>
         <NamedIndividual IRI="#Playstation_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#RPG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Racing"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Requirements"/>
@@ -718,10 +746,6 @@
     <ClassAssertion>
         <Class IRI="#Player"/>
         <NamedIndividual IRI="#Thouta"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Platform"/>
-        <NamedIndividual IRI="#Xbox"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Player"/>
@@ -758,6 +782,16 @@
         <ObjectProperty IRI="#hasExpansionPack"/>
         <NamedIndividual IRI="#Forza_Horizon_5"/>
         <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+        <NamedIndividual IRI="#OpenWorld"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+        <NamedIndividual IRI="#Racing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasRequirement"/>
@@ -800,6 +834,21 @@
         <NamedIndividual IRI="#Monster_Hunter_World_Iceborne"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Monster_Hunter_World"/>
+        <NamedIndividual IRI="#Action"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Monster_Hunter_World"/>
+        <NamedIndividual IRI="#OpenWorld"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Monster_Hunter_World"/>
+        <NamedIndividual IRI="#RPG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasRequirement"/>
         <NamedIndividual IRI="#Monster_Hunter_World"/>
         <NamedIndividual IRI="#Requirements"/>
@@ -823,6 +872,21 @@
         <ObjectProperty IRI="#SupportedPlatforms"/>
         <NamedIndividual IRI="#Monster_Hunter_World_Iceborne"/>
         <NamedIndividual IRI="#Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Monster_Hunter_World_Iceborne"/>
+        <NamedIndividual IRI="#Action"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Monster_Hunter_World_Iceborne"/>
+        <NamedIndividual IRI="#OpenWorld"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Monster_Hunter_World_Iceborne"/>
+        <NamedIndividual IRI="#RPG"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasValueinPlatform"/>
@@ -903,6 +967,16 @@
         <ObjectProperty IRI="#SupportedPlatforms"/>
         <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
         <NamedIndividual IRI="#XboxOne/XboxSerieX/MicrosoftStore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
+        <NamedIndividual IRI="#OpenWorld"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
+        <NamedIndividual IRI="#Racing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasValueinPlatform"/>
@@ -1104,6 +1178,21 @@
         <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
         <Literal>Forza Horizon 5: Hot Wheels</Literal>
     </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manufacturer"/>
+        <NamedIndividual IRI="#XboxOne/XboxSerieX/MicrosoftStore"/>
+        <Literal>Microsoft</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#XboxOne/XboxSerieX/MicrosoftStore"/>
+        <Literal>XboxOne XboxSerieX MicrosoftStore</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#XboxOne/XboxSerieX/MicrosoftStore"/>
+        <Literal>Computer and Console</Literal>
+    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#SupportedPlatforms"/>
         <ObjectProperty IRI="#hasValueinPlatform"/>
@@ -1188,6 +1277,10 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasGameGenre"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGenre"/>
         <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1352,6 +1445,10 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasGameGenre"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGenre"/>
         <Class IRI="#Genre"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
