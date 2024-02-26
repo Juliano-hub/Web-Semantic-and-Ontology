@@ -706,7 +706,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasValue"/>
         <NamedIndividual IRI="#Playstation_4"/>
-        <NamedIndividual IRI="#MHW_Iceborn_Steam"/>
+        <NamedIndividual IRI="#MHW_PSN"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#has_CPU_requirements"/>
