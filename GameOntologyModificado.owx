@@ -466,6 +466,9 @@
         <NamedIndividual IRI="#Thouta"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Xbox"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Zezinho"/>
     </Declaration>
     <Declaration>
@@ -715,6 +718,10 @@
     <ClassAssertion>
         <Class IRI="#Player"/>
         <NamedIndividual IRI="#Thouta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#Xbox"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Player"/>
@@ -1216,6 +1223,14 @@
         <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_CPU_requirements"/>
+        <Class IRI="#Requirements"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_GPU_requirements"/>
+        <Class IRI="#Requirements"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#involvesAchievement"/>
         <Class IRI="#Session"/>
     </ObjectPropertyDomain>
@@ -1366,6 +1381,14 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasValueinPlatform"/>
         <Class IRI="#PriceInDollarClass"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_CPU_requirements"/>
+        <Class IRI="#Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_GPU_requirements"/>
+        <Class IRI="#GPU"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#involvesAchievement"/>
