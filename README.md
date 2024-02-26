@@ -6,5 +6,5 @@ A proposta do desenvolvimento desde trabalho é dada na expansão de um ontologi
 Web: http://vocab.linkeddata.es/vgo/</br>
 Github: https://github.com/dgarijo/VideoGameOntology</br>
 
-##Direitos autorais
+## Direitos autorais
 Este trabalho está sendo desenvolvido e modificado considerando a [Attribution-NonCommercial-ShareAlike 2.0 Generic](https://creativecommons.org/licenses/by-nc-sa/2.0/), assim como foi disponibilizado o material original.
