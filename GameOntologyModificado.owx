@@ -172,7 +172,7 @@
         <Class IRI="#PlayingArea"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PriceInDollar"/>
+        <Class IRI="#PriceInDollarClass"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Processor"/>
@@ -605,19 +605,19 @@
         <NamedIndividual IRI="#Intel_Core_i5_4460"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#PriceInDollar"/>
+        <Class IRI="#PriceInDollarClass"/>
         <NamedIndividual IRI="#MHW_Iceborn_PSN"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#PriceInDollar"/>
+        <Class IRI="#PriceInDollarClass"/>
         <NamedIndividual IRI="#MHW_Iceborn_Steam"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#PriceInDollar"/>
+        <Class IRI="#PriceInDollarClass"/>
         <NamedIndividual IRI="#MHW_PSN"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#PriceInDollar"/>
+        <Class IRI="#PriceInDollarClass"/>
         <NamedIndividual IRI="#MHW_Steam"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1112,11 +1112,11 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasValue"/>
-        <Class IRI="#PriceInDollar"/>
+        <Class IRI="#PriceInDollarClass"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasValueinPlatform"/>
-        <Class IRI="#PriceInDollar"/>
+        <Class IRI="#PriceInDollarClass"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#involvesAchievement"/>
@@ -1227,7 +1227,7 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#PriceinDollar"/>
-        <Class IRI="#PriceInDollar"/>
+        <Class IRI="#PriceInDollarClass"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#account_creation_date"/>
