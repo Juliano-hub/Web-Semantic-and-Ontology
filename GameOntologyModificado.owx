@@ -1927,6 +1927,11 @@ This ontology defines various subclasses of vgo:Achievement, which are all based
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpansionPack</IRI>
+        <Literal>Additional content for electronic games, whether free or paid, that seeks to expand the base game, whether with new maps, items or moves.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#FH5_Steam</IRI>
         <Literal>Price of the Forza Horizon 5 on Steam platform with value in dollars</Literal>
     </AnnotationAssertion>
@@ -2129,6 +2134,11 @@ GameProduct is a subclass of Good Relations: ProductOrService &amp; schema:Produ
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Monster_Hunter_World</IRI>
+        <Literal>Additional content for electronic games, whether free or paid, that seeks to extend the base game, whether with new maps, items or moves.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Monster_Hunter_World_Iceborne</IRI>
         <Literal>Monster Hunter World DLC information</Literal>
     </AnnotationAssertion>
@@ -2151,6 +2161,11 @@ GameProduct is a subclass of Good Relations: ProductOrService &amp; schema:Produ
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Paragon</IRI>
         <Literal xml:lang="en">Paragon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Platform</IRI>
+        <Literal>Means by which it is possible to acquire a game digitally, and consequently it can be played.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2184,8 +2199,13 @@ GameProduct is a subclass of Good Relations: ProductOrService &amp; schema:Produ
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PriceInDollarClass</IRI>
+        <Literal>Price in dollars charged for purchasing an online game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Requirements</IRI>
-        <Literal>Requirements of specs to run Monster Hunter World</Literal>
+        <Literal>Computational component requirements for the device to be able to play the game at a quality that is minimally acceptable in terms of performance, or for playback to be possible at a high quality setting.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
