@@ -2200,7 +2200,7 @@ GameProduct is a subclass of Good Relations: ProductOrService &amp; schema:Produ
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#PriceInDollarClass</IRI>
-        <Literal>Price in dollars charged for purchasing an online game.</Literal>
+        <Literal>Class that will receive a data property float, so that it is possible to connect the platform on which the game is available, and the amount that is charged within the platform.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
