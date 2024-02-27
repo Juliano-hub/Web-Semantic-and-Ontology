@@ -481,10 +481,16 @@
         <NamedIndividual IRI="#Thouta"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Update_Ver._15.21_Outline"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Zezinho"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FH5_Release_Notes:_February_6th,_2024_(Hotfix)"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Missions_Complete!"/>
@@ -748,12 +754,20 @@
         <NamedIndividual IRI="#Thouta"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#UpdateVersion"/>
+        <NamedIndividual IRI="#Update_Ver._15.21_Outline"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Player"/>
         <NamedIndividual IRI="#Zezinho"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#ExpansionPack"/>
         <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UpdateVersion"/>
+        <NamedIndividual IRI="#FH5_Release_Notes:_February_6th,_2024_(Hotfix)"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Completion"/>
@@ -797,6 +811,11 @@
         <ObjectProperty IRI="#hasRequirement"/>
         <NamedIndividual IRI="#Forza_Horizon_5"/>
         <NamedIndividual IRI="#RequirementsFH5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUpdate"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+        <NamedIndividual IRI="#FH5_Release_Notes:_February_6th,_2024_(Hotfix)"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasValueinPlatform"/>
@@ -854,6 +873,11 @@
         <NamedIndividual IRI="#Requirements"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUpdate"/>
+        <NamedIndividual IRI="#Monster_Hunter_World"/>
+        <NamedIndividual IRI="#Update_Ver._15.21_Outline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasValueinPlatform"/>
         <NamedIndividual IRI="#Monster_Hunter_World"/>
         <NamedIndividual IRI="#MHW_PSN"/>
@@ -1029,9 +1053,19 @@
         <Literal>Portuguese</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#metacritic"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+        <Literal>92</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#multiplayer"/>
         <NamedIndividual IRI="#Forza_Horizon_5"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#parental_rating"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+        <Literal>L</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#cpu_cores"/>
@@ -1089,9 +1123,19 @@
         <Literal>Portuguese</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#metacritic"/>
+        <NamedIndividual IRI="#Monster_Hunter_World"/>
+        <Literal>90.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#multiplayer"/>
         <NamedIndividual IRI="#Monster_Hunter_World"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#parental_rating"/>
+        <NamedIndividual IRI="#Monster_Hunter_World"/>
+        <Literal>12</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#name"/>
@@ -1164,6 +1208,22 @@
         <Literal>Computer</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#updateDate"/>
+        <NamedIndividual IRI="#Update_Ver._15.21_Outline"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2023-11-15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#updateNote"/>
+        <NamedIndividual IRI="#Update_Ver._15.21_Outline"/>
+        <Literal>Fixed an issue that unintentionally included certain characters as prohibited words.
+Fixed an issue where the game would be forcibly shut down when trying to reinput a name when the name had a prohibited word included.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#version"/>
+        <NamedIndividual IRI="#Update_Ver._15.21_Outline"/>
+        <Literal>15.21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#account_creation_date"/>
         <NamedIndividual IRI="#Zezinho"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2018-01-26</Literal>
@@ -1177,6 +1237,21 @@
         <DataProperty IRI="#name"/>
         <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
         <Literal>Forza Horizon 5: Hot Wheels</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#updateDate"/>
+        <NamedIndividual IRI="#FH5_Release_Notes:_February_6th,_2024_(Hotfix)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2024-02-06</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#updateNote"/>
+        <NamedIndividual IRI="#FH5_Release_Notes:_February_6th,_2024_(Hotfix)"/>
+        <Literal>Fixed an issue with the 2022 Lynk &amp; Co 02 and the 2022 Wuling Hongguang Mini EV Macaron where some materials erroneously displayed as transparent (Bug ID 3926689)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#version"/>
+        <NamedIndividual IRI="#FH5_Release_Notes:_February_6th,_2024_(Hotfix)"/>
+        <Literal>3.634.818.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#manufacturer"/>
@@ -1740,7 +1815,7 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#metacritic"/>
-        <Datatype abbreviatedIRI="rdf:langString"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#model"/>
