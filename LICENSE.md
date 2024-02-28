@@ -1,3 +1,6 @@
+CC BY-NC-SA 2.0 DEED
+Attribution-NonCommercial-ShareAlike 2.0 Generic
+
 You are free to:
 Share — copy and redistribute the material in any medium or format
 Adapt — remix, transform, and build upon the material
