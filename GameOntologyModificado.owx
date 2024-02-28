@@ -427,13 +427,28 @@
         <NamedIndividual IRI="#FH5_XboxMicrosoft"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#First_of_Many"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Forza_Horizon_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intel_Core_i5_3570"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Intel_Core_i5_4460"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Intel_Core_i5_7600"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#JooJ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MELE_PSN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MELE_Steam"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#MHW_Iceborn_PSN"/>
@@ -448,6 +463,9 @@
         <NamedIndividual IRI="#MHW_Steam"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Monster_Hunter_World"/>
     </Declaration>
     <Declaration>
@@ -457,10 +475,25 @@
         <NamedIndividual IRI="#NVIDIA_GTX_1050"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#NVIDIA_GTX_1650"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NVIDIA_GTX_760"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OpenWorld"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Playstation_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Playstation_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R2TAK_PSN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R2TAK_Steam"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#RPG"/>
@@ -469,13 +502,40 @@
         <NamedIndividual IRI="#Racing"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Remnant2_PSN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Remnant2_Steam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Remnant_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Remnant_2_Hotfixe_Notes_-_12.13.23"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Requirements"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#RequirementsFH5"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#RequirementsMELE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RequirementsRemnant2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spectre_Inductee"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Steam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Awakened_King"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Third_Person_Shooter"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Thouta"/>
@@ -485,6 +545,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Zezinho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#7_June_Update"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#FH5:_Hot_Wheels"/>
@@ -682,16 +745,36 @@
         <NamedIndividual IRI="#FH5_XboxMicrosoft"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Completion"/>
+        <NamedIndividual IRI="#First_of_Many"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Game"/>
         <NamedIndividual IRI="#Forza_Horizon_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Processor"/>
+        <NamedIndividual IRI="#Intel_Core_i5_3570"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Processor"/>
         <NamedIndividual IRI="#Intel_Core_i5_4460"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Processor"/>
+        <NamedIndividual IRI="#Intel_Core_i5_7600"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Player"/>
         <NamedIndividual IRI="#JooJ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PriceInDollarClass"/>
+        <NamedIndividual IRI="#MELE_PSN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PriceInDollarClass"/>
+        <NamedIndividual IRI="#MELE_Steam"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#PriceInDollarClass"/>
@@ -711,6 +794,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
         <NamedIndividual IRI="#Monster_Hunter_World"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -722,12 +809,32 @@
         <NamedIndividual IRI="#NVIDIA_GTX_1050"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GPU"/>
+        <NamedIndividual IRI="#NVIDIA_GTX_1650"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GPU"/>
+        <NamedIndividual IRI="#NVIDIA_GTX_760"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Genre"/>
         <NamedIndividual IRI="#OpenWorld"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Platform"/>
         <NamedIndividual IRI="#Playstation_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#Playstation_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PriceInDollarClass"/>
+        <NamedIndividual IRI="#R2TAK_PSN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PriceInDollarClass"/>
+        <NamedIndividual IRI="#R2TAK_Steam"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Genre"/>
@@ -738,6 +845,22 @@
         <NamedIndividual IRI="#Racing"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#PriceInDollarClass"/>
+        <NamedIndividual IRI="#Remnant2_PSN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PriceInDollarClass"/>
+        <NamedIndividual IRI="#Remnant2_Steam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UpdateVersion"/>
+        <NamedIndividual IRI="#Remnant_2_Hotfixe_Notes_-_12.13.23"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Requirements"/>
         <NamedIndividual IRI="#Requirements"/>
     </ClassAssertion>
@@ -746,8 +869,28 @@
         <NamedIndividual IRI="#RequirementsFH5"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Requirements"/>
+        <NamedIndividual IRI="#RequirementsMELE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requirements"/>
+        <NamedIndividual IRI="#RequirementsRemnant2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Completion"/>
+        <NamedIndividual IRI="#Spectre_Inductee"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Platform"/>
         <NamedIndividual IRI="#Steam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ExpansionPack"/>
+        <NamedIndividual IRI="#The_Awakened_King"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Third_Person_Shooter"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Player"/>
@@ -760,6 +903,10 @@
     <ClassAssertion>
         <Class IRI="#Player"/>
         <NamedIndividual IRI="#Zezinho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UpdateVersion"/>
+        <NamedIndividual IRI="#7_June_Update"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#ExpansionPack"/>
@@ -831,6 +978,51 @@
         <ObjectProperty IRI="#playsGame"/>
         <NamedIndividual IRI="#JooJ"/>
         <NamedIndividual IRI="#Forza_Horizon_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SupportedPlatforms"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+        <NamedIndividual IRI="#Playstation_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SupportedPlatforms"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+        <NamedIndividual IRI="#Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAchievement"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+        <NamedIndividual IRI="#Spectre_Inductee"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+        <NamedIndividual IRI="#RPG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+        <NamedIndividual IRI="#Third_Person_Shooter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequirement"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+        <NamedIndividual IRI="#RequirementsMELE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUpdate"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+        <NamedIndividual IRI="#7_June_Update"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+        <NamedIndividual IRI="#MELE_PSN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+        <NamedIndividual IRI="#MELE_Steam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#SupportedPlatforms"/>
@@ -925,6 +1117,11 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasValue"/>
         <NamedIndividual IRI="#Playstation_4"/>
+        <NamedIndividual IRI="#MELE_PSN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#Playstation_4"/>
         <NamedIndividual IRI="#MHW_Iceborn_PSN"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -933,6 +1130,61 @@
         <NamedIndividual IRI="#MHW_PSN"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#Playstation_5"/>
+        <NamedIndividual IRI="#Remnant2_PSN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SupportedPlatforms"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+        <NamedIndividual IRI="#Playstation_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SupportedPlatforms"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+        <NamedIndividual IRI="#Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAchievement"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+        <NamedIndividual IRI="#First_of_Many"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExpansionPack"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+        <NamedIndividual IRI="#The_Awakened_King"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+        <NamedIndividual IRI="#RPG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+        <NamedIndividual IRI="#Third_Person_Shooter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequirement"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+        <NamedIndividual IRI="#RequirementsRemnant2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUpdate"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+        <NamedIndividual IRI="#Remnant_2_Hotfixe_Notes_-_12.13.23"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+        <NamedIndividual IRI="#Remnant2_PSN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+        <NamedIndividual IRI="#Remnant2_Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#has_CPU_requirements"/>
         <NamedIndividual IRI="#Requirements"/>
         <NamedIndividual IRI="#Intel_Core_i5_4460"/>
@@ -951,6 +1203,26 @@
         <ObjectProperty IRI="#has_GPU_requirements"/>
         <NamedIndividual IRI="#RequirementsFH5"/>
         <NamedIndividual IRI="#NVIDIA_GTX_1050"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_CPU_requirements"/>
+        <NamedIndividual IRI="#RequirementsMELE"/>
+        <NamedIndividual IRI="#Intel_Core_i5_3570"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_GPU_requirements"/>
+        <NamedIndividual IRI="#RequirementsMELE"/>
+        <NamedIndividual IRI="#NVIDIA_GTX_760"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_CPU_requirements"/>
+        <NamedIndividual IRI="#RequirementsRemnant2"/>
+        <NamedIndividual IRI="#Intel_Core_i5_7600"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_GPU_requirements"/>
+        <NamedIndividual IRI="#RequirementsRemnant2"/>
+        <NamedIndividual IRI="#NVIDIA_GTX_1650"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasValue"/>
@@ -965,12 +1237,72 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasValue"/>
         <NamedIndividual IRI="#Steam"/>
+        <NamedIndividual IRI="#MELE_Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#Steam"/>
         <NamedIndividual IRI="#MHW_Iceborn_Steam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasValue"/>
         <NamedIndividual IRI="#Steam"/>
         <NamedIndividual IRI="#MHW_Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#Steam"/>
+        <NamedIndividual IRI="#Remnant2_Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SupportedPlatforms"/>
+        <NamedIndividual IRI="#The_Awakened_King"/>
+        <NamedIndividual IRI="#Playstation_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SupportedPlatforms"/>
+        <NamedIndividual IRI="#The_Awakened_King"/>
+        <NamedIndividual IRI="#Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#The_Awakened_King"/>
+        <NamedIndividual IRI="#RPG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#The_Awakened_King"/>
+        <NamedIndividual IRI="#Third_Person_Shooter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <NamedIndividual IRI="#The_Awakened_King"/>
+        <NamedIndividual IRI="#R2TAK_PSN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasValueinPlatform"/>
+        <NamedIndividual IRI="#The_Awakened_King"/>
+        <NamedIndividual IRI="#R2TAK_Steam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsGame"/>
+        <NamedIndividual IRI="#Thouta"/>
+        <NamedIndividual IRI="#Forza_Horizon_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsGame"/>
+        <NamedIndividual IRI="#Thouta"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsGame"/>
+        <NamedIndividual IRI="#Thouta"/>
+        <NamedIndividual IRI="#Monster_Hunter_World"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsGame"/>
+        <NamedIndividual IRI="#Thouta"/>
+        <NamedIndividual IRI="#Remnant_2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#playsGame"/>
@@ -1069,6 +1401,21 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#cpu_cores"/>
+        <NamedIndividual IRI="#Intel_Core_i5_3570"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#model"/>
+        <NamedIndividual IRI="#Intel_Core_i5_3570"/>
+        <Literal>i5 3570</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#threads"/>
+        <NamedIndividual IRI="#Intel_Core_i5_3570"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cpu_cores"/>
         <NamedIndividual IRI="#Intel_Core_i5_4460"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
     </DataPropertyAssertion>
@@ -1083,6 +1430,21 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#cpu_cores"/>
+        <NamedIndividual IRI="#Intel_Core_i5_7600"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#model"/>
+        <NamedIndividual IRI="#Intel_Core_i5_7600"/>
+        <Literal>i5 7600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#threads"/>
+        <NamedIndividual IRI="#Intel_Core_i5_7600"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#account_creation_date"/>
         <NamedIndividual IRI="#JooJ"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2013-02-04</Literal>
@@ -1091,6 +1453,16 @@
         <DataProperty IRI="#last_access_date"/>
         <NamedIndividual IRI="#JooJ"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2024-02-26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceinDollar"/>
+        <NamedIndividual IRI="#MELE_PSN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">59.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceinDollar"/>
+        <NamedIndividual IRI="#MELE_Steam"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">59.99</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#PriceinDollar"/>
@@ -1114,6 +1486,31 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#language"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#language"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+        <Literal>Portuguese</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#metacritic"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">87</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#parental_rating"/>
+        <NamedIndividual IRI="#Mass_Effect_Legendary_Edition"/>
+        <Literal>M</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#language"/>
         <NamedIndividual IRI="#Monster_Hunter_World"/>
         <Literal>English</Literal>
     </DataPropertyAssertion>
@@ -1125,7 +1522,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#metacritic"/>
         <NamedIndividual IRI="#Monster_Hunter_World"/>
-        <Literal>90.0</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">90</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#multiplayer"/>
@@ -1148,6 +1545,16 @@
         <Literal>GTX 1050</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#model"/>
+        <NamedIndividual IRI="#NVIDIA_GTX_1650"/>
+        <Literal>GTX 1650</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#model"/>
+        <NamedIndividual IRI="#NVIDIA_GTX_760"/>
+        <Literal>GTX 760</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#manufacturer"/>
         <NamedIndividual IRI="#Playstation_4"/>
         <Literal>Sony</Literal>
@@ -1161,6 +1568,64 @@
         <DataProperty IRI="#type"/>
         <NamedIndividual IRI="#Playstation_4"/>
         <Literal>Console</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manufacturer"/>
+        <NamedIndividual IRI="#Playstation_5"/>
+        <Literal>Sony</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Playstation_5"/>
+        <Literal>Playstation 5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Playstation_5"/>
+        <Literal>Console</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceinDollar"/>
+        <NamedIndividual IRI="#R2TAK_PSN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">9.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceinDollar"/>
+        <NamedIndividual IRI="#R2TAK_Steam"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">9.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceinDollar"/>
+        <NamedIndividual IRI="#Remnant2_PSN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">49.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceinDollar"/>
+        <NamedIndividual IRI="#Remnant2_Steam"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">49.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#updateDate"/>
+        <NamedIndividual IRI="#Remnant_2_Hotfixe_Notes_-_12.13.23"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2023-12-13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#updateNote"/>
+        <NamedIndividual IRI="#Remnant_2_Hotfixe_Notes_-_12.13.23"/>
+        <Literal>We just released a hotfix on all platforms that addresses a variety of issues. Read more to see what was fixed!
+
+--Performance and Crashes--
+- Fixed an issue where players would become unjoinable in multiplayer.
+
+--Bug Fixes--
+] --Archetypes-- [
+== Summoner ==
+
+- Fixed an issue where after a summon died, a new one would not be able to be summoned.
+
+] --Gear / Items-- [
+
+- Fixed an issue where some melee weapons were not using the correct amount of stamina.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#OS"/>
@@ -1193,6 +1658,21 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#unsignedByte">110000000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#OS"/>
+        <NamedIndividual IRI="#RequirementsMELE"/>
+        <Literal>Windows 10 64-Bit</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#storage"/>
+        <NamedIndividual IRI="#RequirementsMELE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#unsignedByte">120000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#storage"/>
+        <NamedIndividual IRI="#RequirementsMELE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#unsignedByte">8000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#manufacturer"/>
         <NamedIndividual IRI="#Steam"/>
         <Literal>Valve</Literal>
@@ -1206,6 +1686,16 @@
         <DataProperty IRI="#type"/>
         <NamedIndividual IRI="#Steam"/>
         <Literal>Computer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#account_creation_date"/>
+        <NamedIndividual IRI="#Thouta"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2011-11-12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#last_access_date"/>
+        <NamedIndividual IRI="#Thouta"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2024-02-27</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#updateDate"/>
@@ -1232,6 +1722,45 @@ Fixed an issue where the game would be forcibly shut down when trying to reinput
         <DataProperty IRI="#last_access_date"/>
         <NamedIndividual IRI="#Zezinho"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2024-02-26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#updateDate"/>
+        <NamedIndividual IRI="#7_June_Update"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-06-07</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#updateNote"/>
+        <NamedIndividual IRI="#7_June_Update"/>
+        <Literal>We&apos;ve made the following fixes and improvements across all platforms in this update.
+
+General
+English spoken dialogue can now be selected separately from subtitle language
+Resolved issues with unlocking some achievements/trophies, such as the Paramours or kill count trackers
+Corrected pre-rendered cutscenes that were darker than intended after the previous update
+Wireless headsets/devices no longer cause issues with the Xbox launcher
+Improved PC performance across various hardware configurations, including on Virmire
+Fixed an issue on PC where non-standard characters in the operating system’s username would prevent the game from launching
+Removed the dependency on the AVX instruction set in the launcher
+Other minor calibrations and fixes, including some instances of crashing
+
+Mass Effect
+Fixed an issue that prevented players from reaching the max level
+Fixed an issue where tier VII Spectre - Master Gear was inaccessible
+Various collision improvements
+Fixed an issue that would prevent the ability to interact with objects
+Lowered audio volume on Mass Relay load screens
+Improved eye animations for male characters in some scenes
+
+Mass Effect 2
+Toned down the intensity of fog on Illium
+Fixed an issue where a character’s eyes at the end of the Overlord DLC were unintentionally red
+Reduced the max credits that can be carried from Mass Effect to Mass Effect 2 down to 100k for more balanced early-game progression
+Credit carryover maximum now matches carryover from the original release
+Posthumous banking fees are a lot! It’s a great way to dodge taxes.
+
+Mass Effect 3
+Resolved an issue where English dialogue no longer played during the Citadel DLC for German and Italian localizations
+Fixed an issue where some key characters weren’t appearing as intended during the Citadel DLC</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#name"/>
