@@ -1,5 +1,5 @@
-CC BY-NC-SA 2.0 DEED <\br>
-Attribution-NonCommercial-ShareAlike 2.0 Generic
+CC BY-NC-SA 2.0 DEED </br>
+Attribution-NonCommercial-ShareAlike 2.0 Generic</br>
 
 You are free to:
 Share — copy and redistribute the material in any medium or format
