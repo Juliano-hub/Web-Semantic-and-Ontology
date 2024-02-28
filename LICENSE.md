@@ -1,4 +1,4 @@
-CC BY-NC-SA 2.0 DEED
+CC BY-NC-SA 2.0 DEED <\br>
 Attribution-NonCommercial-ShareAlike 2.0 Generic
 
 You are free to:
