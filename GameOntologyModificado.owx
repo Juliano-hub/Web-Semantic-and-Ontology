@@ -69,7 +69,12 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en">An ontology for describing video games and game plays. Created by Janne Parkkila, Filip Radulovic, Daniel Garijo and María Poveda.</Literal>
+        <Literal xml:lang="en">This version os ontology is expanded by Juliano Buss and Thomazio Giacobbe,  for a class project in the 2023/2 semester at the Federal University of Pelotas(UFPEL).
+
+The original comment is described as:
+An ontology for describing video games and game plays. Created by Janne Parkkila, Filip Radulovic, Daniel Garijo and María Poveda
+
+.</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
@@ -1605,6 +1610,31 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">49.99</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#language"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#language"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+        <Literal>Portuguese</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#metacritic"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#parental_rating"/>
+        <NamedIndividual IRI="#Remnant_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#updateDate"/>
         <NamedIndividual IRI="#Remnant_2_Hotfixe_Notes_-_12.13.23"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2023-12-13</Literal>
@@ -1663,14 +1693,29 @@
         <Literal>Windows 10 64-Bit</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#memory"/>
+        <NamedIndividual IRI="#RequirementsMELE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#unsignedByte">8000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#storage"/>
         <NamedIndividual IRI="#RequirementsMELE"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#unsignedByte">120000000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#OS"/>
+        <NamedIndividual IRI="#RequirementsRemnant2"/>
+        <Literal>Win 10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#memory"/>
+        <NamedIndividual IRI="#RequirementsRemnant2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#unsignedByte">16000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#storage"/>
-        <NamedIndividual IRI="#RequirementsMELE"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#unsignedByte">8000000</Literal>
+        <NamedIndividual IRI="#RequirementsRemnant2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#unsignedByte">80000000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#manufacturer"/>
