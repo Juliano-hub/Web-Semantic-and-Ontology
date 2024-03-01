@@ -14,7 +14,7 @@ PREFIX terms: <http://purl.org/dc/terms/>
 PREFIX v1: <http://purl.org/goodrelations/v1#>
 PREFIX vann: <http://purl.org/vocab/vann/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
-SELECT ?game ?expansao
+SELECT ?game ?expansion
 WHERE {
-	 ?game vgo:hasExpansionPack ?expansao .
+	 ?game vgo:hasExpansionPack ?expansion .
 }
