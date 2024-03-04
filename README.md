@@ -7,7 +7,11 @@ Web: http://vocab.linkeddata.es/vgo/</br>
 Github: https://github.com/dgarijo/VideoGameOntology</br>
 
 ## SparQLF
-Contém alguma consultas SparQL realizadas durante o desenvolvimento do trabalho.
+Contém algumas consultas SparQL realizadas durante o desenvolvimento do trabalho.
+
+## Graph.pdf
+Possuí uma representação gráfica da ontologia expandida utilizando a ferramenta WebVOWL. </br>
+Link: https://github.com/VisualDataWeb/WebVOWL
 
 ## Direitos autorais
 Este trabalho está sendo desenvolvido e modificado considerando a [Attribution-NonCommercial-ShareAlike 2.0 Generic](https://creativecommons.org/licenses/by-nc-sa/2.0/), assim como foi disponibilizado o material original.
