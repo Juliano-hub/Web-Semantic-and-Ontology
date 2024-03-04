@@ -10,7 +10,7 @@ Github: https://github.com/dgarijo/VideoGameOntology</br>
 Contém algumas consultas SparQL realizadas durante o desenvolvimento do trabalho.
 
 ## Graph.pdf
-Possuí uma representação gráfica da ontologia expandida utilizando a ferramenta WebVOWL. </br>
+Possuí uma representação gráfica da ontologia expandida, utilizando a ferramenta WebVOWL. Para uma visualização responsiva, é recomentado a utilização desta ferramenta em tempo real.</br>
 Link: https://github.com/VisualDataWeb/WebVOWL
 
 ## Direitos autorais
